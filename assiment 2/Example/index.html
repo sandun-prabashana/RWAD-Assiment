@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="normalize.css" rel="stylesheet">
+    <title>Sticky Position</title>
+    <style>
+        section {
+            width: 1349px;
+            height: 658px;
+            position: relative;
+        }
+        body>section:nth-child(1){
+            background-color: white;
+        }
+        body>section:nth-child(2){
+            background-color: darkturquoise;
+        }
+        body>section:nth-child(3){
+            background-color: gray;
+        }
+        body>section:nth-child(4){
+            background-color: crimson;
+        }
+        body>section:nth-child(1)>div{
+            width: 1349px;
+            height: 50px;
+            background-color: red;
+            position: sticky;
+            color: white;
+            font-size: 30px;
+            top: 0;
+        }
+        body>section:nth-child(2)>div{
+            width: 1349px;
+            height: 50px;
+            background-color: blue;
+            position: sticky;
+            color: white;
+            font-size: 30px;
+            top: 0;
+        }
+        body>section:nth-child(3)>div{
+            width: 1349px;
+            height: 50px;
+            background-color: black;
+            position: sticky;
+            color: white;
+            font-size: 30px;
+            top: 0;
+        }
+        body>section:nth-child(4)>div{
+            width: 1349px;
+            height: 50px;
+            background-color: red;
+            position: sticky;
+            color: white;
+            font-size: 30px;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>Card 1</div>
+</section>
+<section>
+    <div>Card 2</div>
+</section>
+<section>
+    <div>Card 3</div>
+</section>
+<section>
+    <div>Card 4</div>
+</section>
+</body>
+</html>
